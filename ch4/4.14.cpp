@@ -6,18 +6,14 @@ using namespace std;
    x = x / 2
 */
 
-
 int main() {
-
-   /* Type your code here. */
-   int x;
+   /* Type your code here. */ int x;
 
    cin >> x;
 
-   while ( x > 0){
-    cout << x % 2;
-    x /= 2;
-
+   while (x > 0) {
+      cout << x % 2;
+      x /= 2;
    }
 
    cout << endl;
